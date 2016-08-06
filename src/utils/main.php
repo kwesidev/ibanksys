@@ -247,5 +247,5 @@ function isAdmin($acc) {
 //automatically inlcude class files without have to use inlcudes
 //for example include_once for every class file being called
 function __autoload($classname) {
-    include_once("logic/" . $classname . ".php");
+    include_once($classname . ".php");
 }

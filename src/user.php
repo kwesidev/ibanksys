@@ -1,5 +1,5 @@
 <?php
-include_once("logic/objects.php");
+require_once("utils/main.php");
 clear();
 
 $errors = array();
@@ -29,7 +29,7 @@ if ($profile->isBlock()) {
         </script>
 
         <style style="text/css">
-            body{margin:0px auto;	
+            body{margin:0px auto;
                  font-family:verdana;
                  font-size:12px;
                  #background-color:#333;
@@ -43,7 +43,7 @@ if ($profile->isBlock()) {
 
             #topbar{
                 width:auto;
-                height:auto;	
+                height:auto;
             }
 
             #content{
@@ -67,15 +67,15 @@ if ($profile->isBlock()) {
                 padding-top:20px;
                 width:auto;
                 height:30px;
-                padding-left:0px;  
+                padding-left:0px;
             }
             #menu li{
                 display:inline;
                 margin-left:20px;
-                float:left;	  
+                float:left;
             }
-            #menu li a{  
-                display:block;  
+            #menu li a{
+                display:block;
             }
 
 

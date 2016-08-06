@@ -1,5 +1,5 @@
 <?php
-include_once "logic/objects.php";
+require_once "utils/main.php";
 session_start();
 $errors = array();
 

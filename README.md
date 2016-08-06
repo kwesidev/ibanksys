@@ -5,7 +5,7 @@ Experimental
 
 Todo
 ==
-* Proper CDocumentation
+* Documentation
 * One Time Password for every Transaction
 * Loan Request
 * Mobile Support
